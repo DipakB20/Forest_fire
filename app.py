@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-application = Flask(__name__)
-app=application
+app = Flask(__name__)
 
 ## import ridger regressor model and standard scaler pickle
 
